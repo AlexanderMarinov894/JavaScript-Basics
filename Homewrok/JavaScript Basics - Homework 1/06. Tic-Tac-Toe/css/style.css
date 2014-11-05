@@ -1,0 +1,78 @@
+@font-face {
+    font-family: HugMeTight;
+    src: url(../fonts/Mf%20Hug%20Me%20Tight.ttf);
+}
+
+@font-face {
+    font-family: Broken15;
+    src: url(../fonts/broken15.ttf);
+}
+
+body {
+    background: url('../img/background.png') repeat;
+}
+
+table, tbody, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    font-family: HugMeTight;
+    font-size: 90px;
+    color: #6FC682;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+table {
+    margin: 5px auto;
+}
+
+span#result {
+    margin:-5px auto;
+    font-family: Broken15;
+    text-align: center;
+    font-size: 200px;
+    color: #345fe1;
+    display: block;
+    width: 600px;
+    height: 173px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+div#gameWon {
+    display: block;
+    visibility: hidden;
+    text-align: center;
+}
+
+#newGameButton {
+    width: 369px;
+    height: 60px;
+    border: 2px solid #345fe1;
+    margin-top: 15px;
+    background-color: #ffac1d;
+    border-radius: 16px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#newGameButton:hover {
+    background-color: #345fe1;
+    cursor: pointer;
+}
